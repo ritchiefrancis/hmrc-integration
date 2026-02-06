@@ -5,8 +5,9 @@
 ### Q: Provide details for a responsible individual in your organisation
 
 **Response:**
-
-ritchiefrancis@gmail.com
+Ritchie Francis
+ritchie@filethat.co.uk
+(Telephone number can be provided upon request)
 
 ---
 
@@ -105,7 +106,7 @@ While we have achieved strong compliance across most accessibility criteria, we 
 Yes, we provide multiple channels for reporting security concerns:
 
 - **Contact Form**: A dedicated security contact form accessible from our website, ensuring all security-related communications are prioritized and routed to our technical team
-- **Direct Email**: Security incidents can be reported directly to our responsible individual at ritchiefrancis@gmail.com
+- **Direct Email**: Security incidents can be reported directly to our admin email address (admin@filethat.co.uk)
 - **Response Time**: All security-related reports are acknowledged within 24 hours and investigated immediately
 
 We encourage responsible disclosure and take all security reports seriously, regardless of the source.
