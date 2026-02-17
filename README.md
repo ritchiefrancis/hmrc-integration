@@ -243,6 +243,9 @@ Yes, we have conducted penetration testing on our application, with initial secu
 
 Our phased approach to penetration testing ensures that we maintain strong security practices while scaling our testing efforts appropriately with our service maturity.
 
+
+![Pen test](Intruder_Reports_Summary_From_2026-01-17_To_2026-02-17.png)
+
 ---
 
 ### Q: Do you audit security controls to ensure you comply with data protection law?
