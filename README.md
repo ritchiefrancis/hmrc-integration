@@ -296,6 +296,15 @@ Yes, we have thoroughly tested and verified that our software submits fraud prev
 
 Our testing confirms that all required fraud prevention data is correctly formatted and successfully transmitted with every HMRC API request.
 
+Test Users during the integration verification
+
+romwan.vaughan@example.com - PP456789D/697502108
+
+elvin.vaughan@example.com - AA123457A/995647843
+
+vivien.upton@example.com - ZT999999D/265281551
+
+
 ---
 
 ## Customers authorising your software
