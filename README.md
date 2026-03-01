@@ -67,26 +67,10 @@ VAT sign-off evidence should include request/response traces, fraud header prese
 
 ![VAT Submission Success](docs/evidence/hmrc/VAT/VAT_submission_success.png)
 
----
-
-## 3) Fraud prevention and API controls
-
-- OAuth-based authorisation model in use (no HMRC password storage).
-- Fraud prevention headers are implemented and verified.
-- Request `correlationId` header is included on client requests and propagated in API responses.
-- Backend logging uses MDC correlation context so request traces are searchable end-to-end.
-- Header evidence artefacts are available:
-  - `FraudHeaders.png`
-  - `RequestHeaders.png`
-
-![FraudHeaders](docs/evidence/hmrc/FraudHeaders.png)
-
-![FraudHeaders](docs/evidence/hmrc/RequestHeaders.png)
-
 
 ---
 
-## 4) About your organisation
+## 3) About your organisation
 
 - Ritchie Francis - Contact details available on request
 
@@ -99,7 +83,9 @@ VAT sign-off evidence should include request/response traces, fraud header prese
  - FileThatOnline LTD - 12/02/26
  - Company Number 17030265 
 
-## 5) Marketing
+---
+
+## 4) Marketing
 
 ### Do you use HMRC logos in your software, marketing or website?
 
@@ -117,7 +103,9 @@ VAT sign-off evidence should include request/response traces, fraud header prese
 
 - We do not share customer personal data with third parties for marketing purposes. Customers have full control over communication preferences and can disable any non-essential notifications directly within the application settings at any time.
 
-## 6) About your processes
+---
+
+## 5) About your processes
 
 ###  Do your development practices follow our guidance?
 
@@ -182,15 +170,17 @@ In addition, request tracing is standardized via `correlationId`:
 
 ![CorrelationId Header](docs/evidence/hmrc/ErrorHandling/server-correlation-id.png)
 
+---
 
-
-### 7) Does your software meet accessibility standards?
+### 6) Does your software meet accessibility standards?
 
 - Our software substantially meets accessibility standards. We have built our application using Material-UI (MUI), a framework that incorporates WCAG 2.1 accessibility guidelines and provides built-in support for screen readers, keyboard navigation, and ARIA attributes.
 
 - While we have achieved strong compliance across most accessibility criteria, we acknowledge that we are not yet at 100% conformance. We are committed to continuous improvement and regularly enhance our accessibility features to ensure all users can interact with our software effectively, regardless of their abilities. Accessibility remains a key priority in our ongoing development roadmap.
 
-## 8) Service management practices
+---
+
+## 7) Service management practices
 
 ### Do you provide a way for your customers or third parties to tell you about a security risk or incident?
 
@@ -291,8 +281,9 @@ We are committed to ensuring customers maintain control over their data and can 
 
 This approach aligns with HMRC's security requirements and OAuth 2.0 best practices, ensuring customer credentials remain secure.
 
+---
 
-## 9) Software security (software as a service)
+## 8) Software security (software as a service)
 
 ### Has your application passed software penetration testing?
 
@@ -320,8 +311,9 @@ Our phased approach to penetration testing ensures that we maintain strong secur
 
 These regular audits provide assurance that our security controls remain effective and that we maintain continuous compliance with data protection obligations.
 
+---
 
-## 10) Fraud prevention data
+## 9) Fraud prevention data
 
 - Yes, our software fully implements HMRC's fraud prevention header requirements. All API requests made to HMRC services include the complete set of prescribed fraud prevention headers as specified in HMRC's API documentation.
 
@@ -353,7 +345,9 @@ This comprehensive approach helps HMRC detect and prevent fraudulent activities 
 
 Our testing confirms that all required fraud prevention data is correctly formatted and successfully transmitted with every HMRC API request.
 
-## 11) Customers authorising your software
+---
+
+## 10) Customers authorising your software
 
 - All servers that process customer information are located exclusively in the United Kingdom.
 
