@@ -46,6 +46,8 @@ VAT sign-off evidence should include request/response traces, fraud header prese
 
 - Success evidence captured: VAT submission confirmation screenshot with HMRC reference `269716332109`.
 
+![VAT Submission Success](docs/evidence/hmrc/VAT/VAT-sunmission_success.png)
+
 ---
 
 ## 3) Fraud prevention and API controls
