@@ -40,6 +40,8 @@ Evidence basis: Business Adjustments UI captures showing valid summary status an
 |---|---|---|---|
 | VAT production sign-off | 699332975 | VPS (remote/prod) | Completed |
 
+
+
 VAT sign-off evidence should include request/response traces, fraud header presence, correlation ID linkage, and user-facing error handling outcomes in the same format as ITSA evidence.
 
 - Success evidence captured: VAT submission confirmation screenshot with HMRC reference `269716332109`.
@@ -82,7 +84,7 @@ VAT sign-off evidence should include request/response traces, fraud header prese
 - Local consolidated status: `docs/HMRC_E2E_STATUS_2026-02-28.md`
 - Integration/regression plan: `ITSA_INTEGRATION_TEST_PLAN.md`
 - This consolidated pack source: `docs/HMRC_SIGNOFF_CONSOLIDATED_2026-03-01.md`
-- Evidence index: [docs/evidence/hmrc/EVIDENCE_INDEX.md](docs/evidence/hmrc/EVIDENCE_INDEX.md)
+- Evidence index: [docs/evidence/hmrc/EVIDENCE_INDEX.md](docs/evidence/hmrc/EVIDENC E_INDEX.md)
 
 ### Screenshot and log artefacts
 
